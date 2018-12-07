@@ -28,12 +28,12 @@
 
 const bson_validate_flags_t _mongoc_default_insert_vflags =
    BSON_VALIDATE_UTF8 | BSON_VALIDATE_UTF8_ALLOW_NULL |
-   BSON_VALIDATE_EMPTY_KEYS | BSON_VALIDATE_DOT_KEYS |
+   BSON_VALIDATE_EMPTY_KEYS |
    BSON_VALIDATE_DOLLAR_KEYS;
 
 const bson_validate_flags_t _mongoc_default_replace_vflags =
    BSON_VALIDATE_UTF8 | BSON_VALIDATE_UTF8_ALLOW_NULL |
-   BSON_VALIDATE_EMPTY_KEYS | BSON_VALIDATE_DOT_KEYS |
+   BSON_VALIDATE_EMPTY_KEYS |
    BSON_VALIDATE_DOLLAR_KEYS;
 
 const bson_validate_flags_t _mongoc_default_update_vflags =

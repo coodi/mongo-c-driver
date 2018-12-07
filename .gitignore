@@ -29,3 +29,7 @@ VERSION_RELEASED
 Debug
 install_manifest.txt
 x64
+
+cmake-build-debug/
+
+\.idea/

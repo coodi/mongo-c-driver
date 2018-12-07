@@ -389,7 +389,7 @@ _mongoc_write_command_update_legacy (mongoc_write_command_t *command,
    bool val = false;
    char ns[MONGOC_NAMESPACE_MAX + 1];
    int vflags = (BSON_VALIDATE_UTF8 | BSON_VALIDATE_UTF8_ALLOW_NULL |
-                 BSON_VALIDATE_DOLLAR_KEYS | BSON_VALIDATE_DOT_KEYS);
+                 BSON_VALIDATE_DOLLAR_KEYS );
    bson_reader_t *reader;
    const bson_t *bson;
    bool eof;
