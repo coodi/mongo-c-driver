@@ -9,6 +9,7 @@
 *.so.*
 .githooks
 cmake-build
+cmake-build-debug
 cmake_install.cmake
 CMakeCache.txt
 CMakeFiles
@@ -27,3 +28,6 @@ test-results.json
 Debug
 install_manifest.txt
 x64
+
+.idea
+
